@@ -119,7 +119,7 @@
         </div>
     </footer>
 </body>
-<h1>Final Project Website DEMO</h1>
+<h1>Final Project Website DEMO and why isn't it working? T-T</h1>
 <script>
 function clickCounter() {
   const x = document.getElementById("result");
