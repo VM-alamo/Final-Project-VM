@@ -1,139 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluffy Kitty Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <div class="brand">Final Project</div>
-            <nav class="site-nav">
-                <a href="#hero">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <a class="button button-primary" href="#contact">Get Started</a>
-        </div>
-    </header>
+  <header>
+    <h1>Fluffy Kitty Shop</h1>
+    <nav>
+      <a href="#">Shop Now!</a>
+      <a href="#">Best Sellers</a>
+      <a href="#">Join the Club!</a>
+    </nav>
+  </header>
 
-    <main>
-        <section id="hero" class="hero-section">
-            <div class="container hero-grid">
-                <div>
-                    <p class="eyebrow">Welcome to your landing page</p>
-                    <h1>Build stronger digital experiences with a clean, responsive website.</h1>
-                    <p class="hero-copy">A modern homepage for your final project. Fast, mobile-friendly, and designed to showcase your ideas with clarity.</p>
-                    <div class="hero-actions">
-                        <a class="button button-primary" href="#contact">Contact Us</a>
-                        <a class="button button-secondary" href="#services">Explore Services</a>
-                    </div>
-                </div>
-                <div class="hero-panel">
-                    <div class="panel-card">
-                        <h2>Ready for launch</h2>
-                        <p>Professional layout, easy navigation, and a strong visual presence on any screen.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <section class="hero">
+    <h2>Welcome to the Fluffy Kitty Shop!</h2>
+    <p>The cutest merch for all kitty lovers!</p>
+    <button>Shop Now</button>
+  </section>
 
-        <section id="about" class="section-light">
-            <div class="container section-grid">
-                <div>
-                    <span class="section-label">About this site</span>
-                    <h2>Why this website works</h2>
-                    <p>It combines simple structure, readable typography, and responsive design so your content looks great everywhere. Use it as the base for your project presentation or portfolio.</p>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-card">
-                        <h3>Clean design</h3>
-                        <p>Minimal layout with strong contrast and easy scanning for visitors.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>Responsive layout</h3>
-                        <p>Built to adapt from desktop to mobile automatically.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>Fast loading</h3>
-                        <p>No large assets or scripts, just lightweight HTML and CSS.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <section class="sections">
+    <div class="section">
+      <h3>Limited Edition Plush!</h3>
+      <p>Get your adorable Fluffy Kitty Plush! Only a few left!</p>
+      <button>Grab Yours!</button>
+    </div>
+    <div class="section">
+      <h3>Super Cute & Kawaii Style!</h3>
+      <p>Shop the collection of dreamy Y2K chibi designs!</p>
+      <button>Shop Collection</button>
+    </div>
+    <div class="section">
+      <h3>Follow Us for Updates!</h3>
+      <p>Get the latest news & special offers!</p>
+      <button>Follow Us</button>
+    </div>
+  </section>
 
-        <section id="services" class="section-dark">
-            <div class="container">
-                <span class="section-label section-label-light">Our Services</span>
-                <h2>What we can help you achieve</h2>
-                <div class="service-grid">
-                    <article class="service-card">
-                        <h3>Web design</h3>
-                        <p>Create attractive page layouts, brand styles, and polished visual systems.</p>
-                    </article>
-                    <article class="service-card">
-                        <h3>Development</h3>
-                        <p>Deliver responsive experiences with clean HTML and modern CSS.</p>
-                    </article>
-                    <article class="service-card">
-                        <h3>Launch support</h3>
-                        <p>Prepare your project for production with fast loading and clear content flow.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section-light contact-section">
-            <div class="container contact-grid">
-                <div>
-                    <h2>Start your project today</h2>
-                    <p>Send a message and we'll help you move to the next step.</p>
-                </div>
-                <form class="contact-form">
-                    <label for="name">Name</label>
-                    <input id="name" type="text" placeholder="Your name">
-                    <label for="email">Email</label>
-                    <input id="email" type="email" placeholder="you@example.com">
-                    <label for="message">Message</label>
-                    <textarea id="message" rows="5" placeholder="Tell us about your project"></textarea>
-                    <button class="button button-primary" type="submit">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <p>© 2026 Final Project. Built with HTML and CSS.</p>
-            <div class="footer-links">
-                <a href="#hero">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-            </div>
-        </div>
-    </footer>
+  <footer>
+    <p>Sign up for sweet deals! Join our mailing list for exclusive discounts.</p>
+  </footer>
 </body>
-<h1>Final Project Website DEMO and why isn't it working? T-T</h1>
-<script>
-function clickCounter() {
-  const x = document.getElementById("result");
-  if (typeof(Storage) !== "undefined") {
-    if (sessionStorage.clickcount) {
-      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
-    } else {
-      sessionStorage.clickcount = 1;
-    }
-    x.innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session!";
-  } else {
-    x.innerHTML = "Sorry, no Web storage support!";
-  }
-}
-</script>
-<button onclick="clickCounter()" type="button">Meow</button>
 </html>
