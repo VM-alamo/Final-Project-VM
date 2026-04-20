@@ -1,82 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fluffy Kitty Shop</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Yuki Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-
 <body>
 
-  <header>
-    <div class="top-nav">
-      <a href="#">Shop Now!</a>
-      <a href="#">Best Sellers</a>
-      <a href="#">Join the Club!</a>
-      <div class="cart">🛒 3 Items</div>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <button class="pill">Shop Now!</button>
+      <button class="pill">Best Sellers</button>
+      <button class="pill">Join the Club!</button>
     </div>
-
-    <h1 class="logo">Fluffy Kitty Shop</h1>
+    <div class="nav-right pill cart">
+      🛒 3 items
+    </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
-    <h2>Welcome to the Fluffy Kitty Shop!</h2>
-    <p>The cutest merch for all kitty lovers!</p>
-    <button class="primary-btn">Shop Now</button>
+    <h1 class="logo">YUKI</h1>
+    <p class="subtitle">Welcome to the Yuki Shop!</p>
+    <p class="tagline">The cutest merch for all kitty lovers!</p>
+    <button class="primary">Shop Now ›</button>
   </section>
 
-  <section class="flex-grid">
-    <div class="card">
+  <!-- FEATURE CONTAINER -->
+  <section class="feature-box">
+
+    <div class="feature left">
       <h3>Limited Edition Plush!</h3>
-      <p>Get your adorable Fluffy Kitty Plush! Only a few left!</p>
-      <button class="secondary-btn">Grab Yours!</button>
+      <img src="yuki-plush.png" alt="Yuki Plush" />
+      <p>Get your adorable Yuki Plush!</p>
+      <button class="secondary">Grab Yours ›</button>
     </div>
 
-    <div class="card">
-      <h3>Super Cute & Kawaii Style!</h3>
-      <p>Shop the collection of dreamy Y2K chibi designs!</p>
-      <button class="secondary-btn">Shop the Collection</button>
+    <div class="feature center">
+      <span class="ribbon">Super Cute & Kawaii Style!</span>
+      <img src="yuki-main.png" alt="Yuki mascot" />
+      <button class="primary pink">Shop the Collection ›</button>
     </div>
 
-    <div class="card">
-      <h3>Follow Us for Purr-fect Updates!</h3>
-      <p>Get the latest news & special offers!</p>
-      <div class="socials">
-        <span>📸</span>
-        <span>🐦</span>
-        <span>▶️</span>
-        <span>🎵</span>
+    <div class="feature right">
+      <p class="follow-title">Follow us for purr-fect updates!</p>
+      <button class="secondary">Follow Us ›</button>
+
+      <div class="links">
+        <button class="pill small">Shop Accessories</button>
+        <button class="pill small">Shop Stickers</button>
       </div>
-      <button class="secondary-btn">Follow Us</button>
     </div>
+
   </section>
 
-  <section class="flex-grid">
-    <div class="card">
-      <h3>Cute Apparel</h3>
-      <button class="secondary-btn">Shop Clothing</button>
-    </div>
-
-    <div class="card">
-      <h3>Fun Accessories</h3>
-      <button class="secondary-btn">Shop Accessories</button>
-    </div>
-
-    <div class="card">
-      <h3>Adorable Stickers</h3>
-      <button class="secondary-btn">Shop Stickers</button>
-    </div>
-  </section>
-
-  <footer>
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
     <h3>Sign Up for Sweet Deals!</h3>
     <p>Join our mailing list for exclusive discounts!</p>
-    <div class="subscribe">
-      <input type="email" placeholder="Enter your email...">
-      <button class="primary-btn">Subscribe</button>
+    <div class="signup">
+      <input type="email" placeholder="Enter your email..." />
+      <button class="primary">Subscribe</button>
     </div>
-  </footer>
+  </section>
 
 </body>
 </html>
