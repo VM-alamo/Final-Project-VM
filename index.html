@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Yuki Shop</title>
   <link rel="stylesheet" href="styles.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
@@ -11,12 +12,15 @@
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="nav-left">
-      <button class="pill">Shop Now!</button>
-      <button class="pill">Best Sellers</button>
-      <button class="pill">Join the Club!</button>
+      <button class="pill" onclick="window.location.href='index2.html'">Shop Now!</button>
+      <button class="pill" onclick="window.location.href='index8.html'">Best Sellers</button>
+      <button class="pill" onclick="window.location.href='index6.html'">Join the Club!</button>
     </div>
     <div class="nav-right pill cart">
-      🛒 0 items
+      <a onclick="window.location.href='index3.html'">
+       🛒 0 items
+      </a>
+    
     </div>
   </header>
 
@@ -25,7 +29,7 @@
     <h1 class="logo">YUKI</h1>
     <p class="subtitle">Welcome to the Yuki Shop!</p>
     <p class="tagline">The cutest merch for all kitty lovers!</p>
-    <button class="primary">Shop Now ›</button>
+    <button class="primary" onclick="window.location.href='index2.html'">Shop Now ›</button>
   </section>
 
   <!-- FEATURE CONTAINER -->
@@ -35,25 +39,27 @@
       <h3>Limited Edition Plush!</h3>
       <img src="yuki-plush.png" alt="Yuki Plush" />
       <p>Get your adorable Yuki Plush!</p>
-      <button class="secondary">Grab Yours ›</button>
+    <button class="secondary" onclick="window.location.href='index5.html'">Grab Yours ›</button>
     </div>
 
     <div class="feature center">
       <span class="ribbon">Super Cute & Kawaii Style!</span>
-      <img src="yuki-main.png.PNG" alt="Yuki mascot" />
-      <button class="primary pink">Shop the Collection ›</button>
+      <img src="kitty.png" alt="Yuki mascot" />
+      <button class="primary pink" onclick="window.location.href='index2.html'">Shop the Collection ›</button>
     </div>
 
-    <div class="feature right">
-      <p class="follow-title">Follow us for purr-fect updates!</p>
-      <button class="secondary">Follow Us ›</button>
-
-      <div class="links">
-        <button class="pill small">Shop Accessories</button>
-        <button class="pill small">Shop Stickers</button>
-      </div>
+     <div class="feature card">
+      <h3>Adorable Hats</h3>
+      <img src="yuki-main.png.PNG" alt="Yuki main" />
+      <button class="secondary" onclick="window.location.href='index5.html'">Shop Now ›</button>
     </div>
+  </section>
 
+   <!-- Accessories -->
+  <section class="accessories">
+    <h3>Shop Accessories</h3>
+    <button onclick="window.location.href='index2.html'">Shop Stickers ›</button>
+    <button onclick="window.location.href='index7.html'">Follow Us ›</button>
   </section>
 
   <!-- NEWSLETTER -->
@@ -62,7 +68,7 @@
     <p>Join our mailing list for exclusive discounts!</p>
     <div class="signup">
       <input type="email" placeholder="Enter your email..." />
-      <button class="primary">Subscribe</button>
+      <button class="primary" onclick="window.location.href='index6.html'">Subscribe</button>
     </div>
   </section>
 

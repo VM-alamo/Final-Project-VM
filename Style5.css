@@ -1,0 +1,149 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(#bde9ff, #eaf7ff);
+  color: #2c4da7;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #79c7ff;
+  border-bottom: 3px solid #4ea9f5;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.cart {
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #2c4da7;
+  font-weight: bold;
+}
+
+/* Layout */
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #dff3ff;
+  border-radius: 30px;
+  border: 3px dashed #89c7ff;
+}
+
+/* Image */
+.product-image img {
+  width: 100%;
+  border-radius: 30px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+/* Product Info */
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.badge {
+  background: #ffd1e8;
+  color: #a23c78;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.description {
+  line-height: 1.5;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid #7bbfff;
+}
+
+/* Quantity */
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity button {
+  border: none;
+  background: #7bbfff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.quantity span {
+  font-size: 18px;
+}
+
+/* CTA */
+.add-to-cart {
+  margin-top: 10px;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  background: #ff8fc7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.add-to-cart:hover {
+  transform: scale(1.05);
+}
+
+/* Details */
+details {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 16px;
+  border: 2px solid #b6ddff;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
