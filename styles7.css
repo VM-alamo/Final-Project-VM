@@ -8,8 +8,7 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(#aee4ff, #dff5ff);
-  color: #2b5fb8;
+  background-image: url("BackGround-AI.png");
   display: flex;
   flex-direction: column;
 }
